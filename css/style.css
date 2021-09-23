@@ -84,16 +84,27 @@ body {
   color: #b4d0e7;
 }
 
-.jumbo-text {
-  float: left;
+.left-jumbo {
   width: 30%;
+  float: left;
 }
 
-.jumbo-text .right-jumbo {
-  width: 70%;
+.left-jumbo .jumbo-text {
+  display: inline-block;
 }
 
-.jumbo-img {
-  height: 400px;
+.right-jumbo {
+  width: 65%;
+  float: right;
 }
+
+.right-jumbo .jumbo-img {
+  width: 80%;
+  height: 80%;
+}
+
+/********************MAIN**********************/
+
+
+
 
