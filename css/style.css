@@ -106,5 +106,17 @@ body {
 /********************MAIN**********************/
 
 
+.col-head {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #d3d3d6;
+}
 
+.col-first-list {
+  list-style: none;
+}
+
+.col-second-list {
+  list-style: none;
+}
 
