@@ -17,6 +17,11 @@ body {
 }
 
 .container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.small {
   width: 80%;
   margin: 0 auto;
 }
@@ -103,20 +108,63 @@ body {
   height: 80%;
 }
 
-/********************MAIN**********************/
+/********************MAIN - FIRST SECTION**********************/
 
+
+.first-section {
+  background-color: red;
+}
+
+.container-colonne .colonna1, .colonna2, .colonna3, .colonna4 {
+  float: left;
+  width: 26%;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+.colonna2 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.container-colonne .colonna4 {
+  width: 98%;
+}
 
 .col-head {
-  width: 25%;
   text-align: center;
-  border: 1px solid #d3d3d6;
+  border-bottom: 1px solid black;
+  padding: 10px;
 }
 
-.col-first-list {
+.container-text-col {
+  padding: 40px;
+}
+
+.col-first-list, .col-second-list {
   list-style: none;
+  margin: 40px auto;
 }
 
-.col-second-list {
-  list-style: none;
+.col-first-list li, .col-second-list li {
+  margin-bottom: 20px;
 }
 
+/********************MAIN - SECOND SECTION**********************/
+
+
+
+.left-second-section {
+  width: 50%;
+  float: left;
+}
+
+.right-second-section {
+  width: 50%;
+  float: right;
+}
+
+.left-second-section .partner-img {
+  width: 90%;
+  height: 90%;
+}
