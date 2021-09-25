@@ -16,11 +16,11 @@
   <!-- HEADER -->
   <header class="clearfix">
     <div class="main-nav">
-      <div class="logo">
-        <a href="#"><img src="css/img/logo-small.png" alt="Logo-Dropbox"></a>
-      </div>
       <nav class="left-nav">
-        <ul>    
+        <ul>
+            <li class="logo">
+              <a href="#"><img src="css/img/logo-small.png" alt="Logo-Dropbox"></a>
+            </li>    
             <li><a href="#">Perché Dropbox?</a></li>
             <li><a href="#">Funzioni</a></li>
             <li><a href="#">Piani a prezzi</a></li>
@@ -28,9 +28,9 @@
       </nav>
       <nav class="right-nav">
         <ul>    
-            <li><a href="#">Perché Dropbox?</a></li>
-            <li><a href="#">Funzioni</a></li>
-            <li><a href="#">Piani a prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Contatta l'ufficio vendite</a></li>
+            <li><a href="#">Accedi</a></li>
             <li id="inizia"><a class="btn" href="#">Inizia</a></li>
         </ul>
       </nav>
@@ -64,134 +64,126 @@
 <!-- FIRST SECTION -->
     <section class="first-section">
       <div class="container small">
-        <h2>Trova il piano Dropbox Business che fa per te</h2>
+        <h2 class="title-giant">Trova il piano Dropbox Business che fa per te</h2>
         <input type="checkbox" name="fatturazione1" id="fatturazione1"> Fatturazione mensile
         <input type="checkbox" name="fatturazione2" id="fatturazione2"> Fatturazione annuale
 
         <div class="container-colonne clearfix">
+
+          <!-- colonna 1 -->
           <div class="colonna1">
             <div class="col-head">
               <i class="far fa-user"></i> <span class="col-head-title">Singolo</span>
             </div>
             <div class="container-text-col">
-              <div class="col-title">
-                <h3>Professional</h3>
-              </div>
-              <div class="col-sub-title">
-                <h5>19,99 &#8364;</h5>
-              </div>
-              <div class="col-raw">
-                <h6>/mese</h6>
-              </div>
+              <div class="col-title">Professional</div>
+              <div class="col-sub-title">19,99 &#8364;</div>
+              <div class="col-raw">/mese</div>
               <ul class="col-first-list">
-                <i class="far fa-user"></i><li>1 utente</li>
-                <i class="far fa-folder"></i><li>3 TB di spazio di archiaviazione sicuro</li>
-                <i class="fas fa-pencil-alt"></i><li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                <li><i class="far fa-user"></i> 1 utente</li>
+                <li><i class="far fa-folder"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
               </ul>
     
               <div id="prova-gratis">
                 <a class="btn" href="#">Prova gratis per 30 giorni</a>
               </div>
     
-              oppure <a href="#">acquista ora</a>
-    
-    
-              <h5>Punti salienti del piano</h5>
+              <span class="redirect-link">oppure <a href="#">acquista ora</a></span>
     
               <ul class="col-second-list">
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                <li>3 TB di spazio di archiaviazione sicuro</li>
-                <li>Funzioni di produttività premium e condivisione</li>
-                <li>Funzioni di produttività premium.</li>
-                <li>Funzioni di produttività premium e condivisione e condivisione</li>
+                <li><span class="col-sub-title">Punti salienti del piano</span></li>
+                <li><i class="fas fa-check"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="fas fa-check"></i></i> Funzioni di produttività premium e condivisione</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium.</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium e condivisione e condivisione</li>
               </ul>
 
             </div>
             
           </div>
 
+          <!-- colonna 2 -->
           <div class="colonna2">
             <div class="col-head">
               <i class="far fa-building"></i> <span class="col-head-title">Team</span>
             </div>
-            <div class="col-title">
-              <h3>Professional</h3>
-            </div>
-            ad blanditiis laborum asperiores facere placeat earum animi accusantium distinctio omnis esse, delectus laboriosam? Pariatur, neque iure itaque sunt dolores facilis voluptate! Ad corporis, esse alias quo architecto nostrum enim possimus, voluptate sunt ipsa tenetur adipisci impedit deserunt sit quos! Asperiores iusto recusandae deleniti facere iure saepe temporibus commodi aspernatur quod corporis cum ad consequatur, quae harum a repellendus deserunt aliquid ratione vero ducimus soluta! Officia omnis optio quod, ea accusantium corrupti perspiciatis libero maiores corporis repellat nostrum doloribus, ipsam delectus aut molestias fuga dolorem amet, asperiores numquam facere excepturi veniam expedita! Porro rem 
+            <div class="container-text-col">
+              <div class="col-title">Professional</div>
+              <div class="col-sub-title">19,99 &#8364;</div>
+              <div class="col-raw">/ utente /mese, a partire da 3 utenti</div>
+              <ul class="col-first-list">
+                <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                <li><i class="far fa-folder"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+              </ul>
+    
+              <div id="prova-gratis">
+                <a class="btn" href="#">Prova gratis per 30 giorni</a>
+              </div>
+    
+              <span class="redirect-link">oppure <a href="#">acquista ora</a></span>
+    
+              <ul class="col-second-list">
+                <li><span class="col-sub-title">Punti salienti del piano</span></li>
+                <li><i class="fas fa-check"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="fas fa-check"></i></i> Funzioni di produttività premium e condivisione</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium.</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium e condivisione e condivisione</li>
+              </ul>
+
+            </div> 
           </div>
+
+          <!-- colonna 3 -->
           <div class="colonna3">
             <div class="col-head">
               <i class="far fa-building"></i> <span class="col-head-title">Team</span>
             </div>
-            <div class="col-title">
-              <h3>Professional</h3>
-            </div>
-            Minima odit magnam doloribus ullam distinctio qui odio quasi est autem. Aut nesciunt quidem inventore quisquam incidunt, enim eligendi repellat ad blanditiis laborum asperiores facere placeat earum animi accusantium distinctio omnis esse, delectus laboriosam? Pariatur, neque iure itaque sunt dolores facilis voluptate! Ad corporis, esse alias quo architecto nostrum enim possimus, voluptate sunt ipsa tenetur adipisci impedit deserunt sit quos! Asperiores iusto recusandae deleniti facere iure saepe temporibus commodi aspernatur quod corporis cum ad consequatur, quae harum a repellendus deserunt aliquid ratione vero ducimus soluta! Officia omnis optio quod, ea accusantium corrupti perspiciatis libero maiores corporis repellat nostrum doloribus, ipsam delectus aut molestias fuga dolorem amet, asperiores numquam facere excepturi veniam expedita! Porro rem 
+            <div class="container-text-col">
+              <div class="col-title">Professional</div>
+              <div class="col-sub-title">19,99 &#8364;</div>
+              <div class="col-raw">/ utente /mese, a partire da 3 utenti</div>
+              <ul class="col-first-list">
+                <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                <li><i class="far fa-smile"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+              </ul>
+    
+              <div id="prova-gratis">
+                <a class="btn" href="#">Prova gratis per 30 giorni</a>
+              </div>
+    
+              <span class="redirect-link">oppure <a href="#">acquista ora</a></span>
+    
+              <ul class="col-second-list">
+                <li><span class="col-sub-title">Punti salienti del piano</span></li>
+                <li><i class="fas fa-check"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                <li><i class="fas fa-check"></i> 3 TB di spazio di archiaviazione sicuro</li>
+                <li><i class="fas fa-check"></i></i> Funzioni di produttività premium e condivisione</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium.</li>
+                <li><i class="fas fa-check"></i> Funzioni di produttività premium e condivisione e condivisione</li>
+              </ul>
+
+            </div> 
           </div>
 
+          <!-- colonna 4 -->
           <div class="colonna4">
             <div class="col-head">
               <i class="far fa-building"></i> <span class="col-head-title">Team</span>
             </div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis et. Saepe in nostrum ea fuga illo odio consequuntur. Labore mollitia nam placeat, sunt nostrum ipsum magni distinctio sed. Minima odit magnam doloribus ullam distinctio qui odio quasi est autem. Aut nesciunt quidem inventore quisquam incidunt, enim eligendi repellat ad blanditiis laborum asperiores facere placeat earum animi 
+            <div class="container-text-col">
+              <div id="ufficio-vendite">
+                <a class="btn" href="#">Contatta l'ufficio vendite</a>
+              </div>
+              <div class="col-title">Enterprise</div>
+              <div class="col-sub-title">Contatta l'ufficio vendite per i prezzi</div>
+              <div class="col-raw black-raw">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div> 
           </div>
-        </div>
-
-        <!-- <div class="colonna-1 container clearfix">
-          <div class="col-head">
-            <i class="far fa-user"></i> <span class="col-head-title">Singolo</span>
           </div>
-          <div class="col-title">
-            <h3>Professional</h3>
-          </div>
-          <div class="col-sub-title">
-            <h5>19,99 &#8364;</h5>
-          </div>
-          <div class="col-raw">
-            <h6>/mese</h6>
-          </div>
-
-          <ul class="col-first-list">
-            <li>1 utente</li>
-            <i class="far fa-folder"></i><li>3 TB di spazio di archiaviazione sicuro</li>
-            <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-          </ul>
-
-          <div id="prova-gratis">
-            <a class="btn" href="#">Prova gratis per 30 giorni</a>
-          </div>
-
-          oppure <a href="#">acquista ora</a>
-
-
-          <h5>Punti salienti del piano</h5>
-
-          <ul class="col-second-list">
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>3 TB di spazio di archiaviazione sicuro</li>
-            <li>Funzioni di produttività premium e condivisione</li>
-            <li>Funzioni di produttività premium.</li>
-            <li>Funzioni di produttività premium e condivisione e condivisione</li>
-          </ul>
-
-          <div class="colonna-4">
-            <div class="col-head">
-              <i class="far fa-building"></i> <span class="col-head-title">Team</span>
-            </div>
-            <div class="col-title">
-              <h3>Enterprise</h3>
-            </div>
-            <div id="ufficio-vendite">
-              <a class="btn" href="#">Contatta l'ufficio vendite</a>
-            </div>
-            <div class="col-sub-title">
-              <h5>Contatta l'ufficio venditore per i prezzi</h5>
-            </div>
-            <div class="col-raw">
-              <h6>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</h6>
-            </div> -->
-
-
 
         </div>
       </div>
@@ -199,7 +191,7 @@
 <!-- / FIRST SECTION -->
 
 <!-- SECOND SECTION -->
-    <section>
+    <section class="second-section">
       <div class="container small clearfix">
         <div class="text-second-section">
           <div class="left-second-section">
@@ -218,41 +210,41 @@
 <!-- / SECOND SECTION -->
 
 <!-- THIRD SECTION -->
-    <section>
+    <section class="third-section">
       <div class="container small">
-        <h2>Esegui più operazioni con Dropbox Business</h2>
+        <h2 class="title-giant">Esegui più operazioni con Dropbox Business</h2>
         <div class="raw-cont clearfix">
           <div class="first-raw-box">
             <img class="img-gen" src="css/img/business-feature-switching-tools.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
           <div class="first-raw-box">
             <img class="img-gen" src="css/img/business-feature-coordinate-it.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
           <div class="first-raw-box">
             <img class="img-gen" src="css/img/business-feature-multi-device.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
         </div>
         <div class="raw-cont clearfix">
           <div class="second-raw-box">
             <img class="img-gen" src="css/img/business-feature-integrations-it.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
           <div class="second-raw-box">
             <img class="img-gen" src="css/img/business-feature-send-files-it.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
           <div class="second-raw-box">
             <img class="img-gen" src="css/img/business-feature-security.png" alt="tools-img">
-            <h3>Passa meno da uno strumento all'altro</h3>
-            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
+            <h3 class="first-raw-third-section">Passa meno da uno strumento all'altro</h3>
+            <h5 class="second-raw-third-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium aperiam consectetur hic repellat. Libero sapiente maxime vel repudiandae quas et laboriosam officia ut voluptatum ipsa atque porro nemo sint fuga, odio, minus at vero? In sapiente consequuntur tempore corporis esse.</h5>
           </div>
         </div>
       </div>
@@ -263,7 +255,7 @@
     <section>
       <div class="container small">
         <div class="text-box">
-          <h2 class="title-text-box">Più di 500.000 team utilizzano Dropbox Business</h2>
+          <h2 class="title-giant title-text-box">Più di 500.000 team utilizzano Dropbox Business</h2>
           <a class="link-text-box" href="#">Scopri di più sui nostri clienti</a>
         </div>
       </div>

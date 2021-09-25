@@ -31,6 +31,7 @@ body {
   color: white;
   padding: 10px 20px;
   background-color: #0061ff;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -57,7 +58,7 @@ body {
 .main-nav{
   width: 100%;
   text-align: center;
-  height: 80px;
+  height: 82px;
   line-height: 80px;
   min-width: 800px;
   overflow: hidden;
@@ -85,7 +86,16 @@ body {
 }
 
 .main-nav ul li:hover{
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
+
+.left-nav ul li:first-child, .right-nav ul li:last-child {
+  border-bottom: none;
+}
+
+#inizia:hover {
+
 }
 
 /********************JUMBOTRON**********************/
@@ -104,18 +114,21 @@ body {
   float: left;
 }
 
-.left-jumbo .jumbo-text {
-  display: inline-block;
-}
-
 .right-jumbo {
   width: 65%;
   float: right;
 }
 
+.jumbo-text {
+  margin-bottom: 10%;
+}
+
+#prova-gratuita {
+  margin-bottom: 5%;
+}
+
 .right-jumbo .jumbo-img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
 }
 
 /********************MAIN - FIRST SECTION**********************/
@@ -125,20 +138,28 @@ body {
   background-color: white;
 }
 
+.title-giant {
+  font-size: 266%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
 .container-colonne .colonna1, .colonna2, .colonna3, .colonna4 {
   float: left;
-  width: 24%;
+  width: 28%;
   border: 1px solid black;
   margin-top: 30px;
 }
 
 .colonna2 {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 66px;
+  margin-right: 66px;
 }
 
 .container-colonne .colonna4 {
-  width: 98%;
+  width: 96%;
+  margin-bottom: 100px;
 }
 
 .col-head {
@@ -148,20 +169,63 @@ body {
 }
 
 .container-text-col {
-  padding: 40px;
+  padding: 30px;
+}
+
+.col-title, .col-sub-title {
+  line-height: 40px;
+  font-weight: bold;
 }
 
 .col-first-list, .col-second-list {
   list-style: none;
-  margin: 40px auto;
+  font-size: 14px;
+  margin: 50px auto;
 }
 
 .col-first-list li, .col-second-list li {
   margin-bottom: 20px;
 }
 
+#prova-gratis {
+  margin-bottom: 40px;
+}
+
+#ufficio-vendite {
+  float: right;
+}
+
+.col-title {
+  font-size: 26px;
+}
+
+.col-sub-title {
+  font-size: 16px;
+}
+
+.col-raw, .redirect-link {
+  font-size: 14px;
+}
+
+.col-raw {
+  color: grey;
+}
+
+.black-raw {
+  color: black;
+}
+
+.col-second-list li i {
+  color: blue;
+}
+
+
+
 /********************MAIN - SECOND SECTION**********************/
 
+.second-section {
+  margin-bottom: 100px;
+}
 
 .text-second-section {
   margin-top: 50px;
@@ -183,6 +247,11 @@ body {
   height: 90%;
 }
 
+.first-raw-second-section {
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .first-raw-second-section, .second-raw-second-section {
   margin-bottom: 40px;
 }
@@ -197,12 +266,22 @@ body {
 /********************MAIN - THIRD SECTION**********************/
 
 
+.third-section {
+  margin-bottom: 100px;
+}
+
 .small .first-raw-box, .second-raw-box {
   width: 30%;
   float: left;
   margin-top: 3%;
   margin-right: 3%;
   margin-bottom: 3%;
+}
+
+.first-raw-third-section {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .img-gen {
@@ -222,6 +301,7 @@ body {
 
 .link-text-box {
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .square-big-box {
