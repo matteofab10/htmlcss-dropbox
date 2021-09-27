@@ -72,7 +72,6 @@ body {
   padding: 0 15px;
   display: inline-block;
   line-height: 80px;
-  vertical-align: middle;
 }
 
 .main-nav ul li a{
@@ -321,13 +320,12 @@ body {
 .square2 {
   float: left;
   width: 40%;
-  background-color: green;
+  overflow: auto;
 }
 
 .square3 {
   float: left;
-  width: 30%;
-  background-color: blue; 
+  width: 30%; 
 }
 
 .square1 .tl-box-left, .tl-box-right {
@@ -342,8 +340,9 @@ body {
   height: 250px;
 }
 
-.tl-box-left {
+.square1 .tl-box-left {
   background-color: #a2d39b;
+  border: 10px solid #d1e9cd;
 }
 
 .tl-box-right {
@@ -410,6 +409,8 @@ body {
 }
 
 .main-bottom {
+  position: relative;
+  width: 100%;
   height: 300px;
 }
 
@@ -422,6 +423,9 @@ body {
 }
 
 .btn-white-nb {
+  position: absolute;
+  top: 30%;
+  left: 65%;
   color: black;
   background-color: white;
   font-weight: 600;
@@ -453,4 +457,34 @@ body {
   border-bottom: 1px solid #d1d1d4;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/********************FOOTER**********************/
+
+.footer-background {
+  width: 100%;
+  background-color: #000000;
+}
+
+.list-footer {
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 120px;
+}
+
+.title-footer-list {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.list-footer ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.list-footer ul li a {
+  text-decoration: none;
+  color: white;
 }
